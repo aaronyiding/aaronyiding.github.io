@@ -1,0 +1,75 @@
+body		{ margin: 0; padding: 0; background: #ddd;
+		  font: 12px/19px Arial, Helvetica, Sans-Serif; color: #555; } 
+#page		{ width: 970px; margin: 0 auto 0 auto; box-shadow: 0 0 10px 5px #999;
+		  background: #fff; }
+#main		{ width: 930px; margin: 0; padding: 15px 20px 40px 20px; }
+#subtitle	{ position: relative; top: -45px; left: 115px; width: 850px; z-index: 1;
+		  font-size: 15px; line-height: 0; font-weight: bold; color: #fff;  }
+#headerBar { height: 80px; background-color: #00a6d6; background-image: url("./photos/TU_Delft_logo_White.png"); background-repeat: no-repeat}
+@media print	{ body,#subtitle { color: #333; } }
+#page a img	{ border: none; width: 970px; height: 110px; }
+#page br	{ clear: both; }
+.box-l		{ float: left;  border-color: #aaa; margin: 10px 20px 20px auto; }
+.box-r		{ float: right; border-color: #fb4; margin: 10px auto 20px 20px; }
+.box-l,.box-r	{ width: 232.5px; border-width: 1px; border-style: solid; border-radius: 7px;
+		  padding: 10px 20px 20px 20px;}
+.col-l,.col-m	{ margin-right: 295px; }
+.col-r,.col-m	{ margin-left:  295px; }
+h1		{ font-weight: normal; font-size: 22px; color: #666; margin-bottom: 20px; margin-top: 28px; padding-bottom: 10px; 
+		  text-align: left; width: 100%; border-width: 0 0 1px 0; border-color: #aaa; border-style: solid; }
+h2		{ font-weight: normal; font-size: 21px; color: #666; margin-bottom: 10px; }
+h3		{ font-weight: bold;   font-size: 15px; color: #888; margin-bottom:  5px; }
+ul		{ padding-left: 20px; }
+ol		{ padding-left: 22px; }
+li		{ padding-bottom: 0.5ex; }
+a       { text-decoration: none; color: #00a6d6; }
+a:hover     { text-decoration: underline; }
+
+a.ex: {
+    background-color: #00a6d6;
+    text-decoration: none;
+    font-weight: none;
+}
+
+
+.menu-banner {
+    background-color: white;
+    border-top-width: 5px;
+    border-top-style: solid;
+    border-top-color: #00a6d6;
+    font-weight: bold;
+}
+.menu-banner tr {
+    background-color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.menu-banner a:link {
+    color: #00a6d6;
+    text-decoration: none;
+}
+
+.menu-banner a:visited {
+    color: #00a6d6;
+    text-decoration: none;
+}
+
+.menu-banner a:hover {
+    color: #ffffff;
+    background-color: #00a6d6;
+    text-decoration: none;
+    font-weight: none;
+}
+
+.menu-banner a:active {
+    color: #ffffff;
+    background-color: #005EB8;
+    text-decoration: none;
+}
+
+.menu-banner a.ex:link {
+    background-color: #00a6d6;
+    text-decoration: none;
+    font-weight: none;
+}
