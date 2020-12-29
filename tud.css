@@ -7,7 +7,6 @@ body		{ margin: 0; padding: 0; background: #ddd;
 		  font-size: 15px; line-height: 0; font-weight: bold; color: #fff;  }
 #headerBar { height: 80px; background-color: #00a6d6; background-image: url("./photos/TU_Delft_logo_White.png"); background-repeat: no-repeat}
 @media print	{ body,#subtitle { color: #333; } }
-#page a img	{ border: none; width: 970px; height: 110px; }
 #page br	{ clear: both; }
 .box-l		{ float: left;  border-color: #aaa; margin: 10px 20px 20px auto; }
 .box-r		{ float: right; border-color: #fb4; margin: 10px auto 20px 20px; }
